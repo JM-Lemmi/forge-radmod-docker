@@ -19,4 +19,4 @@ EXPOSE 25565
 RUN rm eula.txt && echo "eula=true" > eula.txt
 
 RUN chmod 744 LaunchServer.sh
-CMD LaunchServer.sh
+CMD ./LaunchServer.sh
