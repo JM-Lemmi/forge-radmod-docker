@@ -5,7 +5,7 @@ WORKDIR /tmp/
 
 # Downloading server-files and unpacking them.
 # Since its zip it cannot be unpacked by ADD
-ADD https://media.forgecdn.net/files/3530/857/RAD-Serverpack-1.48.zip
+ADD https://media.forgecdn.net/files/3530/857/RAD-Serverpack-1.48.zip RAD-Serverpack-1.48.zip
 RUN unzip RAD-Serverpack-1.48.zip
 
 # Second stage: the container
