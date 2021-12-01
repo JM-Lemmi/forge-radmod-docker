@@ -9,7 +9,7 @@ Docker Image for Minecraft Forge Server with the Roguelike Adventures and Dungeo
 If you want to just play, you can use the following command to start the server.
 
 ```
-docker run -d -it -p 25565:25565 -v /srv/forge-rad:/srv/forge-rad jmlemmi/forge-radmod-docker
+docker run -d -it -p 25565:25565 -v /srv/forge-rad:/srv/forge-rad ghcr.io/jmlemmi/forge-radmod-docker
 ```
 Just a quick talk over the options, this command uses:
 
